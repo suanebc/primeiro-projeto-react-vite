@@ -1,0 +1,14 @@
+1. passo-a-passo para criação do prjeto:
+
+1.1 instalação do node : https://nodejs.org/pt-br/download/package-manager
+
+1.2 criação de um projeto vite : npm create vite
+criar nome
+escolher opção de framework 
+escolher opção Javascript
+
+2. instalar e rodar projeto vite
+
+2.2 entra na pasta do projeto 
+2.3 instalar dependencias: npm i
+2.4 rodar o projeto : npm run dev
