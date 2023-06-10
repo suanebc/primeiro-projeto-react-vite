@@ -5,6 +5,7 @@ const minhaLista = [
 
 ]
 
+
 export default function MinhaLista(){
   return minhaLista.map((item) => {
 
