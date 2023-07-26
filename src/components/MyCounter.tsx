@@ -15,7 +15,7 @@ export default function MyCounter(){
 
   return (
     <div>
-      <h1>Olá, eu sou um contador !</h1>
+      <h2>Olá, eu sou um contador !</h2>
       {counter == 5 ? <h3>Ok, o valor ideal é 5</h3> : null}
       <h3>{counter}</h3>
       <button className={styles.myButton} onClick={increase}>aumentar</button>

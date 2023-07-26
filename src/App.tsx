@@ -1,14 +1,17 @@
-import { useEffect, useState } from "react"
-import MyCounter from "./components/MyCounter"
 
-
+import FetchData from "./components/FetchData";
+import MyCounter from "./components/MyCounter";
+import MyList from "./components/MyList";
+import SideEffect from "./components/SideEffect";
 
 function App() {
 
   return (
-    <div>
+    <div className="container">
       <MyCounter />
-     
+      <MyList />
+      <SideEffect />
+     <FetchData />
     </div>
   )
 }
