@@ -2,7 +2,7 @@
 
 ## Temas praticados
 - ``Componentes e props``
-- Estados e eventos
+- ``Estados e eventos``
 - ``Renderização condicional``
 - ``Listas e chaves``
 - ``Efeitos colaterais``
