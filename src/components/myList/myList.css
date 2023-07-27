@@ -1,0 +1,11 @@
+.myDiv {
+  text-align: center;
+  margin: 0;
+  padding: 50px;
+  width: 100%;
+  background-color:burlywood;
+}
+.myText {
+  color: blueviolet;
+  margin: 20px;
+}

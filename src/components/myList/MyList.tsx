@@ -1,3 +1,5 @@
+import './myList.css'
+
 const myList = [
   {id: 1, preco: "1.88", value: 'Laranja'},
   {id: 2, preco: "2.00", value: 'Maçã'},
@@ -12,14 +14,14 @@ export default function MyList(){
   let foodList = myList.map((item) => {
     return (
       <div key={item.id}>
-        <h4>{item.value} - R$ {item.preco}</h4>
+        <h4 className='myText'>{item.value} - R$ {item.preco}</h4>
       </div>
     )
   } )
 
     return (
-      <div>
-        <h2>Olá, eu sou uma lista !</h2>
+      <div className='myDiv'>
+        <h2 className='myText'>Olá, eu sou uma lista !</h2>
         {foodList}
       </div>
 

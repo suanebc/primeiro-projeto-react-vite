@@ -7,4 +7,12 @@
   color: #181326;
   border-radius: 4px;
   background-color: #a6f750;
+  margin: 5px
+}
+.myDiv {
+  text-align: center;
+  margin: 0;
+  padding: 50px;
+  width: 100%;
+  background-color: #181326;
 }

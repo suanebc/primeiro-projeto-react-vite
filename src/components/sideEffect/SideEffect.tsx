@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import './sideEffect.css'
 
 const foods = [
   { id: 1, value: 'Frutas' },
@@ -28,8 +29,8 @@ export default function SideEffect() {
   , [search])
 
   return (
-    <div>
-      <h5>teste</h5>
+    <div className="divSide">
+      <h2 className="textSide">Olá, Faça um pesquisa !</h2>
       <input
         value={search}
         onChange={(e) => setSearch(e.target.value)} 
@@ -38,7 +39,7 @@ export default function SideEffect() {
       {products.map((item) => {
         return (
           <div key={item.id}>
-            <h4>{item.value}</h4>
+            <h4 className="textSide">{item.value}</h4>
           </div>
         )
       })}

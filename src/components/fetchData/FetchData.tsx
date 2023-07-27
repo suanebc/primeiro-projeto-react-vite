@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import styles from './span.module.css'
+import styles from './fetchData.module.css'
 
 
 const myTasks = [
@@ -28,7 +28,7 @@ export default function FetchData() {
   let newTaks = tasks.map((task) => {
     return (
       <ul>
-        <li key={task.id}>
+        <li className={styles.myLi} key={task.id}>
           {task.title}
           {task.completed ? <span className={styles.mySpan}>' - CONCLUÍDA'</span> : null}
         </li>
@@ -37,9 +37,9 @@ export default function FetchData() {
   })
   
   return (
-    <div className="container-fetch">
+    <div className={styles.myDiv}>
 
-    <h2 className="text-fetch">Olá, estou usando uma API !</h2>
+    <h2 className={styles.myText}>Olá, estou usando uma API !</h2>
     {newTaks}
     </div>
   )

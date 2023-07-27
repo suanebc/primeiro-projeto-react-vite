@@ -1,0 +1,11 @@
+.divSide {
+  text-align: center;
+  margin: 0;
+  padding: 50px;
+  width: 100%;
+  background-color:cadetblue;
+}
+.textSide {
+  color:brown;
+  margin: 10px;
+}

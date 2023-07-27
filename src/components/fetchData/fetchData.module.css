@@ -1,0 +1,24 @@
+.myDiv {
+  text-align: center;
+  margin: 0;
+  padding: 50px;
+  width: 100%;
+  background-color:darkgreen;
+}
+
+.mySpan {
+  background-color: brown;
+  margin: 4px;
+  padding: 4px;
+}
+
+
+.mySpan, .myLi {
+  margin: 4px;
+  padding: 4px;
+}
+
+.myText {
+    color:antiquewhite;
+    margin: 20px;
+}
