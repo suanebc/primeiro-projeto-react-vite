@@ -2,14 +2,6 @@ import { useEffect, useState } from "react"
 import styles from './fetchData.module.css'
 
 
-const myTasks = [
-  { id: 1, title: 'ir ao mercado' },
-  { id: 2, title: 'dar remédio ao cachorro' },
-  { id: 3, title: 'ligar para mãe' },
-  { id: 4, title: 'fazer bolo de aniversário' }
-]
-
-
 export default function FetchData() {
 
   const [tasks, setTask] = useState([])
