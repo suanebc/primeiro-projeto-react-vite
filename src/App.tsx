@@ -1,5 +1,5 @@
 
-import FetchData from "./components/FetchData";
+import FetchData from "./components/fetchData/FetchData";
 import MyCounter from "./components/MyCounter";
 import MyList from "./components/MyList";
 import SideEffect from "./components/SideEffect";

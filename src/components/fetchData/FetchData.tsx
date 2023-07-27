@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
-import styles from '../span.module.css'
+import styles from './span.module.css'
+
 
 const myTasks = [
   { id: 1, title: 'ir ao mercado' },
@@ -36,9 +37,9 @@ export default function FetchData() {
   })
   
   return (
-    <div>
+    <div className="container-fetch">
 
-    <h2>Olá, estou usando uma API !</h2>
+    <h2 className="text-fetch">Olá, estou usando uma API !</h2>
     {newTaks}
     </div>
   )
